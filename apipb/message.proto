@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "github.com/ktr0731/grpc-status-details-bin-test/apipb";
+
+package apipb;
+
+message Detail {
+  string body = 1;
+}
